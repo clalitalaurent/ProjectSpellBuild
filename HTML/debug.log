@@ -1,0 +1,8 @@
+[0515/214736.369:ERROR:process_info.cc(359)] UncheckedAllocate
+[0515/214736.951:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0515/214924.392:ERROR:process_info.cc(359)] UncheckedAllocate
+[0522/211317.406:ERROR:process_info.cc(359)] UncheckedAllocate
+[0522/211327.209:ERROR:process_info.cc(359)] UncheckedAllocate
+[0522/211329.737:ERROR:process_info.cc(359)] UncheckedAllocate
+[0522/211448.888:ERROR:process_info.cc(359)] UncheckedAllocate
+[0522/211540.286:ERROR:process_info.cc(359)] UncheckedAllocate

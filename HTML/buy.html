@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/styleBuy.css">
+    <title>Buy</title>
+</head>
+<body>
+    <script src="../JS/buyvalidation.js"></script>
+
+    <div class="background">
+        <img src="../ASSETS/back.png" alt="">
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <div class="headertext">
+                S p e l l B u i l d
+            </div>
+        </div>
+
+        <div class="navigation">
+            <div class="home">
+                <a href="../index.html">Home</a>
+            </div>
+
+            <div class="media">
+                <a href="media.html">Media</a>
+            </div>
+
+            <div class="aboutus">
+                <a href="aboutus.html">About Us</a>
+            </div>
+
+            <div class="community">
+                <a href="community.html">Community</a>
+            </div>
+
+            <div class="buy">
+                <a href="buy.html">Buy</a>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="title">
+                ORDER FORM
+            </div> 
+            <p></p>
+            <hr>
+            <br>
+            <div class="photonform">
+                <div class="img">
+                    <img src="../ASSETS/fanart2.jpg" alt="">
+                </div>
+                <div class="vl"></div>
+                <div class="form">
+                    <form name="RegForm"  method="post" onsubmit="return validation()"
+                    onload="document.RegForm.nama.focus()">
+                        <div class="nama">
+                            <input class="text" type="text" name="nama" id="nama" placeholder="Full Name">
+                        </div>
+                        <p></p>
+                        <div class="email">
+                            <input class="text" type="text" name="email" id="email" placeholder="Email">
+                        </div>
+                        <p></p>
+                        <div class="username">
+                            <input class="text" type="text" name="username" id="username" placeholder="Username">
+                        </div>
+                        <p></p>
+                        <div class="password">
+                            <input class="text" type="password" name="password" id="password" placeholder="Password">
+                        </div>
+                        <p></p>
+                        <div class="confirmpassword">
+                            <input class="text" type="password" name="confirmpassword" id="confirmpassword" placeholder="Confirm Password">
+                        </div>
+                        <p></p>
+                        <div class="gender">
+                            <input class="radiobutton" type="radio" name="gender" id="gender"> Male
+                            <input class="radiobutton" type="radio" name="gender" id="gender"> Female
+                        </div>
+                        <p></p>
+                        <div class="quantity">
+                            <input class="text" type="number" name="quantity" id="quantity" placeholder="Quantity" min= "0">
+                        </div>
+                        <p></p>
+                        <div>
+                            <textarea name="address" id="address" placeholder="Address" style="height: 70px;"></textarea>
+                        </div>
+                        <p></p>
+                        <div class="agreement">
+                            <input type="checkbox" name="" id="agreement">
+                            <label for="agreement">I Agree with terms and conditions</label>
+                        </div>
+                        <br>
+                        <!-- <input class= "button" type="submit" value="Buy" name="submit" 
+                        onclick="allLetter(document.RegForm.nama)"> -->
+                        <!-- <input class= "button" type="button" value="Buy" onclick="registerFunction()"> -->
+                        <input class = "button" type="button" value="Buy" onclick="validation()">
+                    </form>
+    
+                </div>
+            </div>
+
+        </div> 
+        <div class="footer">
+            <div class="logofooter">
+                <img src="../ASSETS/logospellbuild.PNG" alt="">
+            </div>
+            <div class="footertext">
+                COPYRIGHT &copy;2020 SPELLBUILD COORPERATION. ALL RIGHT RESERVED.
+            </div>
+        </div>
+    <div>
+</body>
+</html>
